@@ -1,3 +1,33 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+db.psg.insertMany([
+    { name: "John", age: 25, city: "New York", profession: "Engineer" },
+    { name: "Alice", age: 30, city: "Los Angeles", profession: "Doctor" },
+    { name: "Bob", age: 22, city: "Chicago", profession: "Teacher" },
+    { name: "Eva", age: 28, city: "Houston", profession: "Artist" },
+    { name: "Charlie", age: 35, city: "San Francisco", profession: "Software Developer" },
+    { name: "David", age: 26, city: "Seattle", profession: "Marketing Specialist" },
+    { name: "Fiona", age: 32, city: "Miami", profession: "Chef" },
+    { name: "George", age: 29, city: "Denver", profession: "Architect" },
+    { name: "Hannah", age: 24, city: "Boston", profession: "Writer" },
+    { name: "Isaac", age: 31, city: "Austin", profession: "Graphic Designer" },
+    { name: "Jack", age: 27, city: "Atlanta", profession: "Financial Analyst" },
+    { name: "Kelly", age: 23, city: "Phoenix", profession: "Nurse" },
+    { name: "Liam", age: 29, city: "Portland", profession: "Fitness Trainer" },
+    { name: "Mia", age: 34, city: "Dallas", profession: "Real Estate Agent" },
+    { name: "Noah", age: 25, city: "San Diego", profession: "Social Worker" },
+    { name: "Olivia", age: 30, city: "Las Vegas", profession: "Event Planner" },
+    { name: "Paul", age: 22, city: "Philadelphia", profession: "Journalist" },
+    { name: "Quinn", age: 28, city: "Minneapolis", profession: "Data Scientist" },
+    { name: "Ryan", age: 35, city: "Detroit", profession: "Electrician" },
+    { name: "Sophia", age: 26, city: "Charlotte", profession: "Psychologist" },
+    { name: "Tom", age: 32, city: "Tampa", profession: "Public Relations Specialist" },
+    { name: "Uma", age: 29, city: "Nashville", profession: "Librarian" },
+    { name: "Victor", age: 24, city: "Orlando", profession: "Pilot" },
+    { name: "Wendy", age: 31, city: "Salt Lake City", profession: "Pharmacist" },
+    { name: "Xander", age: 27, city: "Raleigh", profession: "Web Developer" },
+    { name: "Yasmine", age: 23, city: "St. Louis", profession: "Interior Designer" },
+    { name: "Zane", age: 29, city: "Pittsburgh", profession: "Mechanical Engineer" },
+    { name: "John", age: 25, city: "Albany", profession: "Accountant" }, 
+    { name: "Alice", age: 30, city: "Boise", profession: "Consultant" }
+]);
+
+

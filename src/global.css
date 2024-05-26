@@ -1,0 +1,66 @@
+
+.background-image
+{
+   
+    height: 400px;
+    background: url("images/img1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.title
+{
+    color:white;
+    position: absolute;
+    margin-left:80px;
+    margin-top: 270px;
+    font-size: 30px;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+.title1
+{
+    color:green;
+    text-align: left;
+}
+.bcr-title1
+{
+    color:green;
+    text-align: left;
+    padding-left: 20px;
+}
+.image-container
+{
+    
+    padding: 10px 100px 100px 100px;
+}
+.content-container
+{
+    text-align: justify;
+    padding : 10px 40px ;
+}
+img
+{
+    width: 200px;
+}
+.placement-img
+{
+ 
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ 
+ 
+}
+.placement-img img
+{
+    padding: 10px;
+}
